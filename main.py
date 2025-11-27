@@ -83,21 +83,21 @@ columns = [
     "Direction", # 'in' or 'out'
     "IP Version", # '4' or '6'
     "IP Flags", # e.g., '0x0'
-    "IP ID (Identification)",
+    "Unknown",
     "Time-To-Live (TTL)",
-    "Fragment Offset/Info", # e.g., '0'
-    "Protocol Name", # 'tcp', 'udp', 'icmp', 'none'
-    "Protocol Number (IANA)", # '6' for TCP, '17' for UDP
-    "Header Length (Bytes)",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Protocol",
+    "Unknown",
     "Source IP Address",
-    "Destination IP Address",
+    "Desination IP Address",
     "Source Port",
-    "Destination Port",
-    "Data Length / Protocol Specific Field", 
-    
+    "Desination Port",
+
     # TCP Specific Fields (Only present for TCP protocol logs)
-    "TCP Flags", # 'A' (ACK), 'S' (SYN), etc.
-    "Sequence Number", 
+    "Sequence Number",
     "Acknowledgement Number",
     "Window Size",
     "Checksum", # Often not logged or is '0'

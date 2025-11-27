@@ -83,8 +83,8 @@ columns = [
     "Direction", # 'in' or 'out'
     "IP Version", # '4' or '6'
     "IP Flags", # e.g., '0x0'
-    "Time-To-Live (TTL)",
     "IP ID (Identification)",
+    "Time-To-Live (TTL)",
     "Fragment Offset/Info", # e.g., '0'
     "Protocol Name", # 'tcp', 'udp', 'icmp', 'none'
     "Protocol Number (IANA)", # '6' for TCP, '17' for UDP

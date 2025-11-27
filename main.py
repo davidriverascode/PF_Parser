@@ -83,14 +83,14 @@ columns = [
     "Direction", # 'in' or 'out'
     "IP Version", # '4' or '6'
     "IP Flags", # e.g., '0x0'
-    "Unknown",
+    "Unknown 1",
     "Time-To-Live (TTL)",
-    "Unknown",
-    "Unknown",
-    "Unknown",
-    "Unknown",
+    "Unknown 2",
+    "Unknown 3",
+    "Unknown 4",
+    "Unknown 5",
     "Protocol",
-    "Unknown",
+    "Unknown 6",
     "Source IP Address",
     "Desination IP Address",
     "Source Port",

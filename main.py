@@ -1,4 +1,3 @@
-import tabulate
 import pandas as pd
 
 rows = []
